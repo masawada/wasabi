@@ -7,9 +7,7 @@ describe Sample::Model::Hello do
   include Rack::Test::Methods
 
   before do
-    @hello = Sample::Model::Hello.new(
-      body: 'world'
-    )
+    @hello = create(:hello)
   end
 
   subject { @hello }
