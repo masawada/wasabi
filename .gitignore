@@ -1,0 +1,4 @@
+/.bundle
+/tmp
+*.db
+config/database.yml
